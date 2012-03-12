@@ -50,7 +50,7 @@ $(document).ready(function(){
 		.click(function(e){
             e.preventDefault();
             e.stopPropagation();
-            sweetnr($(this).parent().next().attr('id'),'![GitHub Logo]()');
+            sweetnr($(this).parent().next().attr('id'),'![Image](imageURL)');
 		})
 		.appendTo($(sweetr));
     $('<span></span>')
